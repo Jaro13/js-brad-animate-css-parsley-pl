@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+	<!-- Bootstrap CSS -->
+	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Animate.css -->
+	<link href="node_modules/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+
+	<!-- CSS -->
+	<link href="mystyle2.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<div class="conteiner">
+		<div class="row">
+			<!-- tutaj dodajemy animacje -->
+			<header class="animated slideInDown text-center">
+				<h1 class="jumbotron">Animate.css Sandbox</h1>
+			</header>
+			<div class="animated slideInLeft section-1 text-center">
+				<h1>Section 1</h1>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis libero iste natus quos numquam quis, odit
+					ab tempore deserunt voluptate, asperiores soluta tenetur maxime temporibus expedita, quaerat suscipit. Nemo tempore
+					nisi aliquid accusamus dolorum ad harum sed veniam est.</p>
+			</div>
+			<div class="animated slideInRight section-2 text-center">
+				<h1 id="anim-head">Section 2</h1>
+				<p id="anim-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis libero iste natus quos numquam quis, odit
+					ab tempore deserunt voluptate, asperiores soluta tenetur maxime temporibus expedita, quaerat suscipit. Nemo tempore
+					nisi aliquid accusamus dolorum ad harum sed veniam est.</p>
+				<button id="animateBtn" class="btn btn-primary">Animate</button>
+				<button id="animateBtn2" class="btn btn-primary">Ukryj header!</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- jQuery JS (required for Bootstrap)-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- define the project's URL (to make AJAX calls possible, even when using this in sub-folders etc) -->
+	<script>
+		var url = "<?php echo URL; ?>";
+	</script>
+	<!-- our JavaScript -->
+	<script src="app2.js"></script>
+
+	<body>
+
+</html>

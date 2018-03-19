@@ -1,0 +1,1 @@
+alert("this is file 1"),alert("this is file 2");
